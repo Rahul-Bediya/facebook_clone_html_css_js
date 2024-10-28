@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Socila Media website</title>
+    <link rel="stylesheet" href="style.css">
+  
+    <script src="https://kit.fontawesome.com/e98e1b98e7.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <nav>
+        <div class="navleft">
+            <img src="images/logo.png" height="50px">
+            <ul>
+                <li><a href="notification.html"><img src="images/notification.png" height="30px"></a></li>
+                <li><a href="inbox.html"><img src="images/inbox.png" height="30px"></a></li>
+                <li><a href="video.html"><img src="images/video.png" height="30px"></a></li>
+            </ul>
+        </div>
+        <div class="rightnav">
+            <div class="searchbar">
+                <a href="#"><img src="images/search.png"></a>
+                <input type="text" class="search" placeholder="search">
+            </div>
+            <div class="profilpic" onclick="myfunction()" >
+                <img src="images/profile-pic.png" >
+                
+
+            </div>
+            <div class="onlinesign"></div>
+        </div>
+
+        <div class="setting-container">
+            <div class="inersetting">
+                <div class="profile">
+                    <img src="images/profile-pic.png">
+                    <div>
+                        <h3>its-rahul</h3>
+                        <a href="#">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="profile" id="fb">
+                    <img src="images/feedback.png">
+                    <div>
+                        <h3>Give feedback</h3>
+                        <a href="#">please help to improve this website</a>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="settings-links" >
+                    <img src="images/setting.png"  class="setting-icon">
+                    <a href="#"><h3>Setting and privacy</h3> <img src="images/arrow.png" ></a>
+                </div>
+
+                <div class="settings-links" id="h-s">
+                    <img src="images/help.png"  class="setting-icon">
+                    <a href="#"><h3>Help & Support</h3> <img src="images/arrow.png" ></a>
+                </div>
+
+                <div class="settings-links" id="l-o">
+                    <img src="images/logout.png"  class="setting-icon">
+                    <a href="#"><h3>Logout</h3> <img src="images/arrow.png" ></a>
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+
+
+
+
+    </nav>
+    <script src="script.js"></script>
+    <div class="container">
+        <!--left side bar                 -->
+        <div class="leftsidebar">
+            <div class="implinks">
+                <a href="#"><img src="images/news.png">
+                    <p>latest news</p>
+                </a>
+                <a href="#"><img src="images/friends.png">
+                    <p>friends</p>
+                </a>
+                <a href="#"><img src="images/group.png">
+                    <p>Groups</p>
+                </a>
+                <a href="#"><img src="images/marketplace.png">
+                    <p>marketplace</p>
+                </a>
+                <a href="#"><img src="images/watch.png">
+                    <p>Watch</p>
+                </a>
+                <a href="#">
+                    <p>see more</p>
+                </a>
+            </div>
+            <hr>
+            <div class="shortcut-links">
+                <p>Your shortcuts</p>
+                <a href="#"><img src="images/shortcut-1.png">
+                    <p>Web Developer</p>
+                </a>
+                <a href="#"><img src="images/shortcut-2.png">
+                    <p>Web Designing</p>
+                </a>
+                <a href="#"><img src="images/shortcut-3.png">
+                    <p>Full Stack</p>
+                </a>
+                <a href="#"><img src="images/shortcut-4.png">
+                    <p>Website</p>
+                </a>
+
+
+            </div>
+        </div>
+        <!---------Main side bar-->
+        <div class="maincontainer">
+            <!------------story galary--------------->
+            <div class="storybar">
+                <div class="story story1">
+                    <img src="images/upload.png">
+                    <p>Post Story</p>
+                </div>
+                <div class="story story2">
+                    <img src="images/member-1.png">
+                    <p>its-laila</p>
+                </div>
+                <div class="story story3">
+                    <img src="images/member-2.png">
+                    <p>its-majnu</p>
+                </div>
+                <div class="story story4">
+                    <img src="images/member-3.png">
+                    <p>its-heroein</p>
+                </div>
+                <div class="story story5">
+                    <img src="images/member-4.png">
+                    <p>its-don</p>
+                </div>
+
+            </div>
+            <!-----------post container-------------->
+
+            <div class="post-write-container">
+                <div class="profile">
+                    <img src="images/profile-pic.png">
+                    <div>
+                        <h3>its-rahul</h3>
+                        <p>public</p>
+                    </div>
+                </div>
+                <div class="write-post">
+                    <input type="textarea" placeholder="what's on your mind  Rahul?" class="pst">
+                    <hr>
+                </div>
+                <div class="post-way">
+                    <div class="live-video">
+                        <a href="#"><img src="images/live-video.png">
+                            <p>Live-Video</p>
+                        </a>
+                    </div>
+                    <div class="live-video , photo-post"><a href="#"><img src="images/photo.png">
+                            <p>Photo/Video</p>
+                        </a></div>
+                    <div class="live-video , feeling-post"><a href="#"><img src="images/feeling.png">
+                            <p>Feeling/Activity</p>
+                        </a></div>
+
+                </div>
+            </div>
+            <div class="post">
+                <div class="post-profile">
+                    <div class="profile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <h3>its-rahul</h3>
+                            <p>sept 21 2022 11:23 PM</p>
+                        </div>
+                    </div>
+                    <img src="images/more.png" class="more">
+                </div>
+                <div class="about-post">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde soluta sapiente
+                    dolor similique, adipisci exercitationem reiciendis, accusamus nemo minima, quod ratione odio!</div>
+                <div class="img-post">
+                    <img src="images/feed-image-1.png">
+                </div>
+                <div class="icon">
+                    <div class="left-icon">
+                        <div class="licon">
+                            <img src="images/like-blue.png">
+                            <p>2454</p>
+                        </div>
+                        <div class="licon">
+                            <img src="images/comments.png">
+                            <p>50</p>
+                        </div>
+                        <div class="licon">
+                            <img src="images/share.png">
+                            <p>400</p>
+                        </div>
+                    </div>
+                    <div class="right-icon">
+
+                        <div class="profilpic">
+                            <img src="images/profile-pic.png">
+                            <div class="onlinesign"></div>
+
+                        </div>
+                        <img src="images/arrow.png" class="arrow">
+
+                    </div>
+                </div>
+
+
+            </div>
+            <!-------post1-->
+            <div class="post">
+                <div class="post-profile">
+                    <div class="profile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <h3>its-rahul</h3>
+                            <p>sept 21 2022 11:23 PM</p>
+                        </div>
+                    </div>
+                    <img src="images/more.png" class="more">
+                </div>
+                <div class="about-post">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde soluta sapiente
+                    dolor similique, adipisci exercitationem reiciendis, accusamus nemo minima, quod ratione odio!</div>
+                <div class="img-post">
+                    <img src="images/feed-image-2.png">
+                </div>
+                <div class="icon">
+                    <div class="left-icon">
+                        <div class="licon">
+                            <img src="images/like-blue.png">
+                            <p>2454</p>
+                        </div>
+                        <div class="licon">
+                            <img src="images/comments.png">
+                            <p>50</p>
+                        </div>
+                        <div class="licon">
+                            <img src="images/share.png">
+                            <p>400</p>
+                        </div>
+                    </div>
+                    <div class="right-icon">
+
+                        <div class="profilpic">
+                            <img src="images/profile-pic.png">
+                            <div class="onlinesign"></div>
+
+                        </div>
+                        <img src="images/arrow.png" class="arrow">
+
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="post">
+                <div class="post-profile">
+                    <div class="profile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <h3>its-rahul</h3>
+                            <p>sept 21 2022 11:23 PM</p>
+                        </div>
+                    </div>
+                    <img src="images/more.png" class="more">
+                </div>
+                <div class="about-post">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde soluta sapiente
+                    dolor similique, adipisci exercitationem reiciendis, accusamus nemo minima, quod ratione odio!</div>
+                <div class="img-post">
+                    <img src="images/feed-image-3.png">
+                </div>
+                <div class="icon">
+                    <div class="left-icon">
+                        <div class="licon">
+                            <img src="images/like-blue.png">
+                            <p>2454</p>
+                        </div>
+                        <div class="licon">
+                            <img src="images/comments.png">
+                            <p>50</p>
+                        </div>
+                        <div class="licon">
+                            <img src="images/share.png">
+                            <p>400</p>
+                        </div>
+                    </div>
+                    <div class="right-icon">
+
+                        <div class="profilpic">
+                            <img src="images/profile-pic.png">
+                            <div class="onlinesign"></div>
+
+                        </div>
+                        <img src="images/arrow.png" class="arrow">
+
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="post">
+                <div class="post-profile">
+                    <div class="profile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <h3>its-rahul</h3>
+                            <p>sept 21 2022 11:23 PM</p>
+                        </div>
+                    </div>
+                    <img src="images/more.png" class="more">
+                </div>
+                <div class="about-post">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde soluta sapiente
+                    dolor similique, adipisci exercitationem reiciendis, accusamus nemo minima, quod ratione odio!</div>
+                <div class="img-post">
+                    <img src="images/feed-image-4.png">
+                </div>
+                <div class="icon">
+                    <div class="left-icon">
+                        <div class="licon">
+                            <img src="images/like-blue.png">
+                            <p>2454</p>
+                        </div>
+                        <div class="licon">
+                            <img src="images/comments.png">
+                            <p>50</p>
+                        </div>
+                        <div class="licon">
+                            <img src="images/share.png">
+                            <p>400</p>
+                        </div>
+                    </div>
+                    <div class="right-icon">
+
+                        <div class="profilpic">
+                            <img src="images/profile-pic.png">
+                            <div class="onlinesign"></div>
+
+                        </div>
+                        <img src="images/arrow.png" class="arrow">
+
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="post">
+                <div class="post-profile">
+                    <div class="profile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <h3>its-rahul</h3>
+                            <p>sept 21 2022 11:23 PM</p>
+                        </div>
+                    </div>
+                    <img src="images/more.png" class="more">
+                </div>
+                <div class="about-post">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde soluta sapiente
+                    dolor similique, adipisci exercitationem reiciendis, accusamus nemo minima, quod ratione odio!</div>
+                <div class="img-post">
+                    <img src="images/feed-image-5.png">
+                </div>
+                <div class="icon">
+                    <div class="left-icon">
+                        <div class="licon">
+                            <img src="images/like-blue.png">
+                            <p>2454</p>
+                        </div>
+                        <div class="licon">
+                            <img src="images/comments.png">
+                            <p>50</p>
+                        </div>
+                        <div class="licon">
+                            <img src="images/share.png">
+                            <p>400</p>
+                        </div>
+                    </div>
+                    <div class="right-icon">
+
+                        <div class="profilpic">
+                            <img src="images/profile-pic.png">
+                            <div class="onlinesign"></div>
+
+                        </div>
+                        <img src="images/arrow.png" class="arrow">
+
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="post">
+                <div class="post-profile">
+                    <div class="profile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <h3>its-rahul</h3>
+                            <p>sept 21 2022 11:23 PM</p>
+                        </div>
+                    </div>
+                    <img src="images/more.png" class="more">
+                </div>
+                <div class="about-post">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde soluta sapiente
+                    dolor similique, adipisci exercitationem reiciendis, accusamus nemo minima, quod ratione odio!</div>
+                <div class="img-post">
+                    <img src="images/feed-image-1.png">
+                </div>
+                <div class="icon">
+                    <div class="left-icon">
+                        <div class="licon">
+                            <img src="images/like-blue.png">
+                            <p>2454</p>
+                        </div>
+                        <div class="licon">
+                            <img src="images/comments.png">
+                            <p>50</p>
+                        </div>
+                        <div class="licon">
+                            <img src="images/share.png">
+                            <p>400</p>
+                        </div>
+                    </div>
+                    <div class="right-icon">
+
+                        <div class="profilpic">
+                            <img src="images/profile-pic.png">
+                            <div class="onlinesign"></div>
+
+                        </div>
+                        <img src="images/arrow.png" class="arrow">
+
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="post">
+                <div class="post-profile">
+                    <div class="profile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <h3>its-rahul</h3>
+                            <p>sept 21 2022 11:23 PM</p>
+                        </div>
+                    </div>
+                    <img src="images/more.png" class="more">
+                </div>
+                <div class="about-post">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde soluta sapiente
+                    dolor similique, adipisci exercitationem reiciendis, accusamus nemo minima, quod ratione odio!</div>
+                <div class="img-post">
+                    <img src="images/feed-image-1.png">
+                </div>
+                <div class="icon">
+                    <div class="left-icon">
+                        <div class="licon">
+                            <img src="images/like-blue.png">
+                            <p>2454</p>
+                        </div>
+                        <div class="licon">
+                            <img src="images/comments.png">
+                            <p>50</p>
+                        </div>
+                        <div class="licon">
+                            <img src="images/share.png">
+                            <p>400</p>
+                        </div>
+                    </div>
+                    <div class="right-icon">
+
+                        <div class="profilpic">
+                            <img src="images/profile-pic.png">
+                            <div class="onlinesign"></div>
+
+                        </div>
+                        <img src="images/arrow.png" class="arrow">
+
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="post">
+                <div class="post-profile">
+                    <div class="profile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <h3>its-rahul</h3>
+                            <p>sept 21 2022 11:23 PM</p>
+                        </div>
+                    </div>
+                    <img src="images/more.png" class="more">
+                </div>
+                <div class="about-post">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde soluta sapiente
+                    dolor similique, adipisci exercitationem reiciendis, accusamus nemo minima, quod ratione odio!</div>
+                <div class="img-post">
+                    <img src="images/feed-image-1.png">
+                </div>
+                <div class="icon">
+                    <div class="left-icon">
+                        <div class="licon">
+                            <img src="images/like-blue.png">
+                            <p>2454</p>
+                        </div>
+                        <div class="licon">
+                            <img src="images/comments.png">
+                            <p>50</p>
+                        </div>
+                        <div class="licon">
+                            <img src="images/share.png">
+                            <p>400</p>
+                        </div>
+                    </div>
+                    <div class="right-icon">
+
+                        <div class="profilpic">
+                            <img src="images/profile-pic.png">
+                            <div class="onlinesign"></div>
+
+                        </div>
+                        <img src="images/arrow.png" class="arrow">
+
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="post">
+                <div class="post-profile">
+                    <div class="profile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <h3>its-rahul</h3>
+                            <p>sept 21 2022 11:23 PM</p>
+                        </div>
+                    </div>
+                    <img src="images/more.png" class="more">
+                </div>
+                <div class="about-post">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde soluta sapiente
+                    dolor similique, adipisci exercitationem reiciendis, accusamus nemo minima, quod ratione odio!</div>
+                <div class="img-post">
+                    <img src="images/feed-image-1.png">
+                </div>
+                <div class="icon">
+                    <div class="left-icon">
+                        <div class="licon">
+                            <img src="images/like-blue.png">
+                            <p>2454</p>
+                        </div>
+                        <div class="licon">
+                            <img src="images/comments.png">
+                            <p>50</p>
+                        </div>
+                        <div class="licon">
+                            <img src="images/share.png">
+                            <p>400</p>
+                        </div>
+                    </div>
+                    <div class="right-icon">
+
+                        <div class="profilpic">
+                            <img src="images/profile-pic.png">
+                            <div class="onlinesign"></div>
+
+                        </div>
+                        <img src="images/arrow.png" class="arrow">
+
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="post">
+                <div class="post-profile">
+                    <div class="profile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <h3>its-rahul</h3>
+                            <p>sept 21 2022 11:23 PM</p>
+                        </div>
+                    </div>
+                    <img src="images/more.png" class="more">
+                </div>
+                <div class="about-post">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde soluta sapiente
+                    dolor similique, adipisci exercitationem reiciendis, accusamus nemo minima, quod ratione odio!</div>
+                <div class="img-post">
+                    <img src="images/feed-image-1.png">
+                </div>
+                <div class="icon">
+                    <div class="left-icon">
+                        <div class="licon">
+                            <img src="images/like-blue.png">
+                            <p>2454</p>
+                        </div>
+                        <div class="licon">
+                            <img src="images/comments.png">
+                            <p>50</p>
+                        </div>
+                        <div class="licon">
+                            <img src="images/share.png">
+                            <p>400</p>
+                        </div>
+                    </div>
+                    <div class="right-icon">
+
+                        <div class="profilpic">
+                            <img src="images/profile-pic.png">
+                            <div class="onlinesign"></div>
+
+                        </div>
+                        <img src="images/arrow.png" class="arrow">
+
+                    </div>
+                </div>
+
+
+            </div>
+
+           <h3>Reel</h3>
+           <hr>
+
+            <div class="storybar">
+                <div class="story story1">
+                    <img src="images/upload.png">
+                    <p>Post Reel</p>
+                </div>
+               
+               
+                
+                <div class="story story2">
+                    <img src="images/member-1.png">
+                    <p>its-laila</p>
+                </div>
+                <div class="story story3">
+                    <img src="images/member-2.png">
+                    <p>its-majnu</p>
+                </div>
+                <div class="story story4">
+                    <img src="images/member-3.png">
+                    <p>its-heroein</p>
+                </div>
+                <div class="story story5">
+                    <img src="images/member-4.png">
+                    <p>its-don</p>
+                </div>
+
+            </div>
+
+
+
+
+
+
+        </div>
+
+
+        <!-----Right side bar-->
+        <div class="rightsidebar">
+            <div class="sidebar-title">
+                <h4>Events</h4>
+                <a href="#">See All</a>
+            </div>
+            <div class="events">
+                <div class="left-event">
+                    <h3>25</h3>
+                    <span>March</span>
+                </div>
+                <div class="right-event">
+                    <h4>Social Media</h4>
+                    <p><i class="fa-sharp fa-solid fa-location-dot"></i>
+                        willson Tech Park</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+            <div class="events">
+                <div class="left-event">
+                    <h3>30</h3>
+                    <span>March</span>
+                </div>
+                <div class="right-event">
+                    <h4>Mobile Market</h4>
+                    <p><i class="fa-sharp fa-solid fa-location-dot"></i>
+                        willson Tech Park</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+            <div class="sidebar-title">
+                <h4>Advertisement</h4>
+                <a href="#">Close</a>
+            </div>
+            <img src="images/advertisement.png" class="sidebar-add">
+            <div class="sidebar-title">
+                <h4>Conversion</h4>
+                <a href="#">Hide chat</a>
+            </div>
+            <div class="onlinelist">
+                <div class="online">
+                    <img src="images/member-1.png">
+                    <div class="onlinesign"></div>
+                </div>
+                <p>rahul</p>
+            </div>
+            <div class="onlinelist">
+                <div class="online">
+                    <img src="images/member-2.png">
+                    <div class="onlinesign"></div>
+                </div>
+                <p>sumit</p>
+            </div>
+            <div class="onlinelist">
+                <div class="online">
+                    <img src="images/member-3.png">
+                    <div class="onlinesign"></div>
+                </div>
+                <p>piyush</p>
+            </div>
+            <div class="onlinelist">
+                <div class="online">
+                    <img src="images/member-4.png">
+                    <div class="onlinesign"></div>
+                </div>
+                <p>piyush</p>
+            </div>
+            <div class="onlinelist">
+                <div class="online">
+                    <img src="images/member-5.png">
+                    <div class="onlinesign"></div>
+                </div>
+                <p>piyush</p>
+            </div>
+            <div class="onlinelist">
+                <div class="online">
+                    <img src="images/member-6.png">
+                    <div class="onlinesign"></div>
+                </div>
+                <p>piyush</p>
+            </div>
+            <div class="onlinelist">
+                <div class="online">
+                    <img src="images/member-7.png">
+                    <div class="onlinesign"></div>
+                </div>
+                <p>piyush</p>
+            </div>
+            <div class="onlinelist">
+                <div class="online">
+                    <img src="images/member-8.png">
+                    <div class="onlinesign"></div>
+                </div>
+                <p>piyush</p>
+            </div>
+            <div class="onlinelist">
+                <div class="online">
+                    <img src="images/member-9.png">
+                    <div class="onlinesign"></div>
+                </div>
+                <p>piyush</p>
+            </div>
+
+        </div>
+    </div>
+
+   
+
+</body>
+
+</html>
